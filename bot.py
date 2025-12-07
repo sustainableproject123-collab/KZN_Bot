@@ -8,7 +8,7 @@ from datetime import datetime
 
 # --- CONFIGURATION ---
 # >>> ⚠️⚠️ PASTE YOUR NEW TOKEN HERE ⚠️⚠️ <<<
-TOKEN = 'MTQ0NzEwMTA4MDg3NzE0MjEyNg.GWO1hp.6-qdAfIokc91xTwhPoVRi-VqZ9EuOgraTX6W-s' 
+TOKEN = 'YOUR_SECRET_TOKEN_GOES_INTO_RAILWAY_VARIABLES' 
 XP_PER_MESSAGE = 15
 XP_COOLDOWN_SECONDS = 10
 LEVEL_UP_BASE = 250
@@ -901,5 +901,6 @@ async def purge(ctx, amount: int):
 
 
 # --- CONNECT ---
+
 
 client.run(TOKEN)
